@@ -22,8 +22,7 @@ public class ReadData {
 			String stateCheck = obj.get("state").toString();
 			//Assert.assertEquals(stateCheck, "IL"); if you use TestNg this statement works
 			String cityCheck = obj.getString("city").toString();
-			System.out.println(stateCheck);
-			System.out.println(cityCheck);
+			
 			
 		if(stateCheck.equals("IL") && cityCheck.equals("Chicago"))
 		{
